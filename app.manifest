@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <!-- Request administrator privileges -->
+        <requestedExecutionLevel level="requireAdministrator" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <application xmlns="urn:schemas-microsoft-com:windows:application">
+    <windowsSettings>
+      <!-- Optional: Set compatibility with Windows version -->
+      <applicationId type="win32"/>
+
+      <!-- Request administrator privileges again (same as above) -->
+      <requestedExecutionLevel level="requireAdministrator" uiAccess="false" />
+    </windowsSettings>
+  </application>
+</assembly>
